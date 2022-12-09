@@ -27,3 +27,30 @@ class Solution {
   }
 }
 ```
+
+## kata task2
+[Task link](https://www.codewars.com/kata/6391fe3f322221003db3bad6)
+My solution
+
+```java
+public class Perpendicular {
+    public static int maxBisectors(int n) {
+        if (n%2==0){
+        return (n/2)*(n/2);
+        }
+        else {
+              return (((n-1)/2)*((n-1)/2)+n/2);
+        }
+    }
+}
+```
+
+My fav solution
+
+```java
+public class Perpendicular {
+  public static int maxBisectors(int n) {
+    return (int) Math.pow((double) n/2, 2);
+  }
+}
+```
