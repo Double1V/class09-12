@@ -29,7 +29,7 @@ class Solution {
 ```
 
 ## kata task2
-[Task link](https://www.codewars.com/kata/6391fe3f322221003db3bad6)
+[Task link](https://www.codewars.com/kata/6391fe3f322221003db3bad6)    
 My solution
 
 ```java
